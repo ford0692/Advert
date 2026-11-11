@@ -1,0 +1,78 @@
+/*fonts*/
+@font-face {
+    font-family: 'Martel Light';
+    src:url(../fonts/Martel-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    src:url(../fonts/RobotoSerif[grad,opsz,wdth,wgth].woff) format('woff');
+}
+
+/*everything else*/
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	overflow: hidden;
+	background-color: antiquewhite;
+}
+
+.soup {
+	background: url(../images/FrenchOnionSoup.png) no-repeat center fixed;
+	background-size: 20%;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-position: 350px 400px;
+}
+
+.title {
+	color: #898A41;
+	font-family: 'Roboto';
+	position: relative;
+	font-size: 1.8em;
+	padding: 10px 0 10px 10px;
+	background-color: bisque;
+}
+
+p {
+	color: #8A561C;
+	font-family: 'Martel Light';
+	position: relative;
+	font-size: 1.8em;
+}
+
+.call {
+	position: relative;
+	width: 500px;
+	height: 40px;
+	left: 475px;
+	top: -200px;
+}
+
+.link {
+	font-family: 'Martel Light';
+	color: #8A561C;
+	font-size: 1em;
+	position: relative;
+	left: 575px;
+	top: -175px;
+	text-decoration: none;
+	border: solid 1px #8A561C;
+	padding: 10px 10px 10px 10px;
+	transition: 0.4s
+}
+
+.link:hover {
+	transition: 0.4s;
+	background-color: #8A561C;
+	color: antiquewhite;
+}
